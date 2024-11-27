@@ -9,6 +9,8 @@ build:
   jobs:
     pre_build:
       - jupyter-book config sphinx .
+    build:
+      - sphinx-build -T -b html -d _build/doctrees . $READTHEDOCS_OUTPUT/html
 
 conda:
   environment: environment.yml
