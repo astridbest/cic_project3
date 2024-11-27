@@ -1,5 +1,0 @@
-format: jb-book
-root: index
-chapters:
-- file: Project1
-- file: Project2
