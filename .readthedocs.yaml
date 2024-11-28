@@ -9,8 +9,6 @@ build:
   jobs:
     pre_build:
       - jupyter-book config sphinx .
-  output:
-    path: $READTHEDOCS_OUTPUT/html
 
     
 
